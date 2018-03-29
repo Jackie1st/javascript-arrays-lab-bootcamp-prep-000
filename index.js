@@ -23,7 +23,7 @@ function prependKitten(name) {
 }
 function removeLastKitten() {
   var removeLastKitten = ["Milo", "Otis", "Garfield"];
-  removeLastKitten = removeLastKitten.slice(-1);
+  removeLastKitten = removeLastKitten.slice(0, removeLastKitten.length -1);
   return removeLastKitten;
 }
 function removeFirstKitten() {
